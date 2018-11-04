@@ -1,0 +1,12 @@
+//
+// Text
+//
+
+.text-justify  { text-align: justify !important; }
+.text-nowrap   { white-space: nowrap !important; }
+.text-truncate { @include text-truncate; }
+.text-left   { text-align: left; }
+.text-right  { text-align: right; }
+.text-center { text-align: center; }
+.text-uppercase { text-transform: uppercase; }
+.text-hide { @include text-hide(); }
